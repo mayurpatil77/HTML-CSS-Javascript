@@ -1,0 +1,45 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore compiled binaries
+*.exe
+*.dll
+
+# Ignore package-lock.json (use npm-shrinkwrap.json instead)
+package-lock.json
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore images and media
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore backup files
+*.bak
+*.backup

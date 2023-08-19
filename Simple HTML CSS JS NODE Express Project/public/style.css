@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family:cursive;
+}
+.pages ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.pages ul li{
+    line-height: 40px;
+}
+.pages ul li:hover{
+    color: greenyellow;
+}
